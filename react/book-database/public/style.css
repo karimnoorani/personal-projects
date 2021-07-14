@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Karma:wght@400;500;700&display=swap');
+
+
+header{
+    font-family: "Karma", sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+form{
+    margin: 10px auto;
+    width: 200px;
+    border: 1px solid;
+    text-align: center;
+    border-radius: 4px;
+    font-family: "Karma", sans-serif;
+    padding: 10px;
+}
+
+.EntryForms{
+    margin: 5px;
+    padding: 3px;
+}
+
+#MyText{
+    margin-top: 9px;
+    margin-bottom: 0;
+}
+
+.BookStatusOption{
+    margin-top: 7px;
+    margin-left: 7px;
+}
+
+.Books{
+    margin-top: 10px;
+    font-family: "Karma", sans-serif;
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.Books > p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.BookImage{
+    height: 100px;
+    text-align: center;
+    margin-bottom: 0;
+}

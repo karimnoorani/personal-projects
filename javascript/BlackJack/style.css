@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;500;700&display=swap');
+
+* {
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: #35654d;
+}
+
+header {
+	background-color: white;
+	padding: 20px;
+}
+
+header > h1 {
+	color: #35654d;
+	text-align: center;
+	font-family; Asap, sans-serif;
+}
+
+.scoreboard {
+	margin: 20px auto;
+	margin-bottom: 0;
+	border: 3px solid white;
+	border-radius: 4px;
+	text-align: center;
+	width: 200px;
+	color: white;
+	font-size: 46px;
+	padding: 15px 20px;
+	font-family: Asap, sans-serif;
+	position: relative;
+}
+
+#score-label {
+	background: #E25840;
+	color: white;
+	font-size: 14px;
+	padding: 2px 10px;
+	font-family: Asap, sans-serif;
+	position: absolute;
+	left: 50px;
+	top: -10px;
+}
+
+#card-deck {
+	text-align: center;
+	margin-top: 20px;
+}
+
+#card-image {
+	width: auto;
+	height: auto;
+	max-height: 200px;
+}
+
+.playboard {
+	margin: 20px auto;
+	border: 3px solid white;
+	border-radius: 4px;
+	text-align: center;
+	width: 800px;
+	padding: 15px 20px;
+}
+
+.card-space {
+	display: inline-block;
+	border: 3px solid white;
+	border-radius: 4px;
+	padding: 20px;
+	width: 130px;
+	height: 200px;
+	margin: auto 20px;
+	padding: 0;
+}
+
+.controls {
+	text-align: center;
+}
+
+.play-end-replay {
+	font-size: 20px;
+	font-family: Asap, sans-serif;
+	border-radius: 4px;
+	margin: auto 10px;
+	cursor: pointer;
+	padding: 5px 5px;
+}
+
+.endgame{
+	display: none;
+	width: 400px;
+	height: 200px;
+	top: 200px;
+	background-color: rgba(205, 133, 63, 0.8);
+	position: absolute;
+	left: 50%;
+	margin-left: -200px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+	border-radius: 5px;
+	color: white;
+	font-size: 2em;
+}

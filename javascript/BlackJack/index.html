@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>BlackJack</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+	<body>
+
+		<header>
+			<h1>BlackJack</h1>
+		</header>
+
+		<div class="scoreboard">
+			<div id="score-label" class="label">Player Score</div>
+			<div id="score-number" class="label">0</div>
+		</div>
+
+		<div id="card-deck">
+			<img id= "card-image" src="Card pics/blue_back.png">
+		</div>
+
+		<div class="playboard">
+			<div class="card-space" id="one"></div>
+			<div class="card-space" id="two"></div>
+			<div class="card-space" id="three"></div>
+			<div class="card-space" id="four"></div>
+		</div>
+
+		<div class="controls">
+			<button id="play" class= "play-end-replay">Hit Me</button>
+			<button id="replay" class= "play-end-replay">Replay</button>
+		</div>
+		<div class="endgame">
+			<p id="endgame-text"></p>
+		</div>
+
+	<script src="script.js" charset="utf-8"></script>
+	</body>
+
+</html>
